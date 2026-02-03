@@ -1,0 +1,24 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  background: pink;
+  color: darkred;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button.yes {
+  background: red;
+  color: white;
+}
+
+button.alt-yes {
+  background: purple;
+  color: yellow;
+}
