@@ -217,7 +217,10 @@ function sayNo() {
 }
 
 function sayYes() {
-  resultDiv.innerHTML = `<h2>Yay! You’re my Valentine ❤️</h2>`;
+  resultDiv.innerHTML = `
+    <h2>Yay! You’re my Valentine ❤️</h2>
+    <img src="images/Valentines_Special.jpeg" alt="Us together" class="valentine-pic fade-in">
+  `;
   launchHearts();
 }
 
